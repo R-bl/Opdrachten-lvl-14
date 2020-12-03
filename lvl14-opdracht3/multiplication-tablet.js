@@ -1,3 +1,4 @@
+//log tafel 9
 const tableNine = 9;
 
 for(i = 1; i <= 10; i++){
@@ -5,7 +6,7 @@ for(i = 1; i <= 10; i++){
     console.log(`${tableNine} * ${i} = ${result}`);
 }
 
-
+//log tafel 1 tm 10
 let tables = [1,2,3,4,5,6,7,8,9,10,11];
 
 for(i = 1; i <tables.length; i++){
@@ -14,3 +15,4 @@ for(i = 1; i <tables.length; i++){
         console.log(`${i} * ${x} = ${tableResults}`);
     }
 }
+console.log('----------------')

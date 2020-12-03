@@ -1,5 +1,4 @@
 function assignGrade(score) {
-    for(i = 60; i <=100; i++){
     if (score > 90) {
         return 'A';
     } else if (score > 80) {
@@ -13,7 +12,7 @@ function assignGrade(score) {
     }
     
 }
-console.log(i);
+//log i plus grade
+for(i = 60; i <=100; i++){
+console.log(`Je hebt ${i} punten, je krijgt een ${assignGrade(i)}`);
 }
-//assignGrade(i);
-//console.log(assignGrade)
