@@ -1,4 +1,4 @@
-//while loop
+//while loop 5 regels
 let colors = ['yellow','blue','red','orange'];
 let i = 0;
 while(i < colors.length){
@@ -6,8 +6,18 @@ while(i < colors.length){
     i++;
 }
 
-//for loop
 
+
+//for loop 2 regels
 for(i = 0; i < colors.length; i++){
     console.log(colors[i]);
 }
+
+
+
+
+// foreach method 1 regel
+colors.forEach(element => console.log(element));
+/* is hetzelfde als
+color.forEach(function(element){
+    console.log(element))*/
