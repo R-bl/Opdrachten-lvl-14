@@ -36,7 +36,7 @@ for(i in myObject){
     console.log(`${i} : ${myObject[i]}`);
 }
 /*Hier maak ik gebruik van de for in method.
-  i is hier de property van myObject*/
+  i is hier de property van myObject. De loop zal alle opsombare properties van de object iteraten.*/
 
    
    
